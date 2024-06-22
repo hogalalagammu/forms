@@ -1,0 +1,30 @@
+/* General styles */
+.summary-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.summary-section {
+    margin-bottom: 20px;
+}
+
+.summary-section h3 {
+    margin-bottom: 10px;
+}
+
+.summary-section p {
+    margin-bottom: 5px;
+    line-height: 1.6;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .summary-container {
+        padding: 15px;
+    }
+}
